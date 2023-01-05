@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5855DD8A296747C00057451A /* drumette Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5855DD89296747C00057451A /* drumette Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5855DD8F296747C00057451A /* drumetteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855DD8E296747C00057451A /* drumetteApp.swift */; };
+		5855DD91296747C00057451A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855DD90296747C00057451A /* ContentView.swift */; };
+		5855DD93296747C10057451A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5855DD92296747C10057451A /* Assets.xcassets */; };
+		5855DD96296747C10057451A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5855DD95296747C10057451A /* Preview Assets.xcassets */; };
+		5855DDA0296747C20057451A /* drumette_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855DD9F296747C20057451A /* drumette_Watch_AppTests.swift */; };
+		5855DDAA296747C20057451A /* drumette_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855DDA9296747C20057451A /* drumette_Watch_AppUITests.swift */; };
+		5855DDAC296747C20057451A /* drumette_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855DDAB296747C20057451A /* drumette_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5855DD8B296747C00057451A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5855DD7D296747C00057451A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5855DD88296747C00057451A;
+			remoteInfo = "drumette Watch App";
+		};
+		5855DD9C296747C10057451A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5855DD7D296747C00057451A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5855DD88296747C00057451A;
+			remoteInfo = "drumette Watch App";
+		};
+		5855DDA6296747C20057451A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5855DD7D296747C00057451A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5855DD88296747C00057451A;
+			remoteInfo = "drumette Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5855DDB2296747C20057451A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5855DD8A296747C00057451A /* drumette Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5855DD83296747C00057451A /* drumette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drumette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5855DD89296747C00057451A /* drumette Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drumette Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5855DD8E296747C00057451A /* drumetteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drumetteApp.swift; sourceTree = "<group>"; };
+		5855DD90296747C00057451A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5855DD92296747C10057451A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5855DD95296747C10057451A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5855DD9B296747C10057451A /* drumette Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "drumette Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5855DD9F296747C20057451A /* drumette_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drumette_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5855DDA5296747C20057451A /* drumette Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "drumette Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5855DDA9296747C20057451A /* drumette_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drumette_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5855DDAB296747C20057451A /* drumette_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drumette_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5855DD86296747C00057451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855DD98296747C10057451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855DDA2296747C20057451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5855DD7C296747C00057451A = {
+			isa = PBXGroup;
+			children = (
+				5855DD8D296747C00057451A /* drumette Watch App */,
+				5855DD9E296747C10057451A /* drumette Watch AppTests */,
+				5855DDA8296747C20057451A /* drumette Watch AppUITests */,
+				5855DD84296747C00057451A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5855DD84296747C00057451A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5855DD83296747C00057451A /* drumette.app */,
+				5855DD89296747C00057451A /* drumette Watch App.app */,
+				5855DD9B296747C10057451A /* drumette Watch AppTests.xctest */,
+				5855DDA5296747C20057451A /* drumette Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5855DD8D296747C00057451A /* drumette Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5855DD8E296747C00057451A /* drumetteApp.swift */,
+				5855DD90296747C00057451A /* ContentView.swift */,
+				5855DD92296747C10057451A /* Assets.xcassets */,
+				5855DD94296747C10057451A /* Preview Content */,
+			);
+			path = "drumette Watch App";
+			sourceTree = "<group>";
+		};
+		5855DD94296747C10057451A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5855DD95296747C10057451A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5855DD9E296747C10057451A /* drumette Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5855DD9F296747C20057451A /* drumette_Watch_AppTests.swift */,
+			);
+			path = "drumette Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5855DDA8296747C20057451A /* drumette Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5855DDA9296747C20057451A /* drumette_Watch_AppUITests.swift */,
+				5855DDAB296747C20057451A /* drumette_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "drumette Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5855DD82296747C00057451A /* drumette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5855DDB3296747C20057451A /* Build configuration list for PBXNativeTarget "drumette" */;
+			buildPhases = (
+				5855DD81296747C00057451A /* Resources */,
+				5855DDB2296747C20057451A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5855DD8C296747C00057451A /* PBXTargetDependency */,
+			);
+			name = drumette;
+			productName = drumette;
+			productReference = 5855DD83296747C00057451A /* drumette.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5855DD88296747C00057451A /* drumette Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5855DDAF296747C20057451A /* Build configuration list for PBXNativeTarget "drumette Watch App" */;
+			buildPhases = (
+				5855DD85296747C00057451A /* Sources */,
+				5855DD86296747C00057451A /* Frameworks */,
+				5855DD87296747C00057451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "drumette Watch App";
+			productName = "drumette Watch App";
+			productReference = 5855DD89296747C00057451A /* drumette Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5855DD9A296747C10057451A /* drumette Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5855DDB6296747C20057451A /* Build configuration list for PBXNativeTarget "drumette Watch AppTests" */;
+			buildPhases = (
+				5855DD97296747C10057451A /* Sources */,
+				5855DD98296747C10057451A /* Frameworks */,
+				5855DD99296747C10057451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5855DD9D296747C10057451A /* PBXTargetDependency */,
+			);
+			name = "drumette Watch AppTests";
+			productName = "drumette Watch AppTests";
+			productReference = 5855DD9B296747C10057451A /* drumette Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5855DDA4296747C20057451A /* drumette Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5855DDB9296747C20057451A /* Build configuration list for PBXNativeTarget "drumette Watch AppUITests" */;
+			buildPhases = (
+				5855DDA1296747C20057451A /* Sources */,
+				5855DDA2296747C20057451A /* Frameworks */,
+				5855DDA3296747C20057451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5855DDA7296747C20057451A /* PBXTargetDependency */,
+			);
+			name = "drumette Watch AppUITests";
+			productName = "drumette Watch AppUITests";
+			productReference = 5855DDA5296747C20057451A /* drumette Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5855DD7D296747C00057451A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5855DD82296747C00057451A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5855DD88296747C00057451A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5855DD9A296747C10057451A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5855DD88296747C00057451A;
+					};
+					5855DDA4296747C20057451A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5855DD88296747C00057451A;
+					};
+				};
+			};
+			buildConfigurationList = 5855DD80296747C00057451A /* Build configuration list for PBXProject "drumette" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5855DD7C296747C00057451A;
+			productRefGroup = 5855DD84296747C00057451A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5855DD82296747C00057451A /* drumette */,
+				5855DD88296747C00057451A /* drumette Watch App */,
+				5855DD9A296747C10057451A /* drumette Watch AppTests */,
+				5855DDA4296747C20057451A /* drumette Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5855DD81296747C00057451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855DD87296747C00057451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855DD96296747C10057451A /* Preview Assets.xcassets in Resources */,
+				5855DD93296747C10057451A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855DD99296747C10057451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855DDA3296747C20057451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5855DD85296747C00057451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855DD91296747C00057451A /* ContentView.swift in Sources */,
+				5855DD8F296747C00057451A /* drumetteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855DD97296747C10057451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855DDA0296747C20057451A /* drumette_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855DDA1296747C20057451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855DDAC296747C20057451A /* drumette_Watch_AppUITestsLaunchTests.swift in Sources */,
+				5855DDAA296747C20057451A /* drumette_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5855DD8C296747C00057451A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5855DD88296747C00057451A /* drumette Watch App */;
+			targetProxy = 5855DD8B296747C00057451A /* PBXContainerItemProxy */;
+		};
+		5855DD9D296747C10057451A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5855DD88296747C00057451A /* drumette Watch App */;
+			targetProxy = 5855DD9C296747C10057451A /* PBXContainerItemProxy */;
+		};
+		5855DDA7296747C20057451A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5855DD88296747C00057451A /* drumette Watch App */;
+			targetProxy = 5855DDA6296747C20057451A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5855DDAD296747C20057451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5855DDAE296747C20057451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5855DDB0296747C20057451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"drumette Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = drumette;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		5855DDB1296747C20057451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"drumette Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = drumette;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		5855DDB4296747C20057451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				INFOPLIST_KEY_CFBundleDisplayName = drumette;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5855DDB5296747C20057451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				INFOPLIST_KEY_CFBundleDisplayName = drumette;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5855DDB7296747C20057451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drumette Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/drumette Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		5855DDB8296747C20057451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drumette Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/drumette Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		5855DDBA296747C20057451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "drumette Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		5855DDBB296747C20057451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44DFLN2B8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supersweet-dev.drumette.drumette-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "drumette Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5855DD80296747C00057451A /* Build configuration list for PBXProject "drumette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855DDAD296747C20057451A /* Debug */,
+				5855DDAE296747C20057451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5855DDAF296747C20057451A /* Build configuration list for PBXNativeTarget "drumette Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855DDB0296747C20057451A /* Debug */,
+				5855DDB1296747C20057451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5855DDB3296747C20057451A /* Build configuration list for PBXNativeTarget "drumette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855DDB4296747C20057451A /* Debug */,
+				5855DDB5296747C20057451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5855DDB6296747C20057451A /* Build configuration list for PBXNativeTarget "drumette Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855DDB7296747C20057451A /* Debug */,
+				5855DDB8296747C20057451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5855DDB9296747C20057451A /* Build configuration list for PBXNativeTarget "drumette Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855DDBA296747C20057451A /* Debug */,
+				5855DDBB296747C20057451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5855DD7D296747C00057451A /* Project object */;
+}
